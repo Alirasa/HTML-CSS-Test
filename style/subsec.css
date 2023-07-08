@@ -1,0 +1,49 @@
+.subsec{
+ margin-top: 40px;
+ padding-bottom: 20px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+}
+.heading h3{
+    padding-top: 50px;
+    font-size: 30px;
+    color: white;
+}
+.heading h1{
+padding-top: 10px;
+font-size: 50px;
+color: white;
+}
+.service{
+
+}
+.svc{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+    border-radius: 50%;
+    height: 100px;
+}
+.svc img{
+    height: 100%;
+    width: 100%;
+    border-radius: 150%;
+}
+.svc p{
+    padding: 10px 50px;
+    border-radius: 10px;
+    background: gray;
+    margin-top: 10px;
+    border-left: 7px solid red;
+    color: white;
+    border-right: 7px solid red;
+    font-size: 20px;
+    font-weight: bold;
+}

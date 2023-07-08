@@ -1,0 +1,47 @@
+.subsec2{
+ position: relative;
+ padding-bottom: 50px;
+ margin-top: 70px;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading h3{
+    padding-top: 50px;
+}
+.heading h1{
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.headin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headin input{
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 10px 10px;
+    font-size: 20px;
+}
+.headin input:hover{
+    background: blue;
+    color: white;
+}
+.service{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+.service img{
+    height: 300px;
+    width: 250px;
+    border-radius: 20px;
+    margin: 0px 10px;
+}
